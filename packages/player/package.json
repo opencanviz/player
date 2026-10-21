@@ -1,0 +1,25 @@
+{
+  "name": "@opencanviz/player",
+  "version": "0.1.0",
+  "description": "Play openCanviz animated explainers on a canvas, or with a <canviz-player> element.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./element": { "types": "./dist/element.d.ts", "import": "./dist/element.js" },
+    "./assets/*": "./dist/assets/*"
+  },
+  "files": ["dist", "LICENSE", "README.md"],
+  "keywords": ["opencanviz", "animation", "diagram", "explainer", "canvas", "player", "web-component"],
+  "homepage": "https://opencanviz.com",
+  "dependencies": {
+    "roughjs": "^4.6.6"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "prepack": "node build.mjs"
+  }
+}

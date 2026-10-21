@@ -1,0 +1,16 @@
+{
+  "name": "opencanviz-player-source",
+  "private": true,
+  "description": "Source of @opencanviz/player, mirrored from openCanviz. The package itself is packages/player.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node packages/player/build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "typescript": "5.1.6",
+    "roughjs": "^4.6.6",
+    "lottie-web": "^5.13.0"
+  }
+}
