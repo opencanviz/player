@@ -8,13 +8,39 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
-    "./element": { "types": "./dist/element.d.ts", "import": "./dist/element.js" },
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./element": {
+      "types": "./dist/element.d.ts",
+      "import": "./dist/element.js"
+    },
     "./assets/*": "./dist/assets/*"
   },
-  "files": ["dist", "LICENSE", "README.md"],
-  "keywords": ["opencanviz", "animation", "diagram", "explainer", "canvas", "player", "web-component"],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "opencanviz",
+    "animation",
+    "diagram",
+    "explainer",
+    "canvas",
+    "player",
+    "web-component"
+  ],
   "homepage": "https://opencanviz.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opencanviz/player.git",
+    "directory": "packages/player"
+  },
+  "bugs": {
+    "url": "https://github.com/opencanviz/player/issues"
+  },
   "dependencies": {
     "roughjs": "^4.6.6"
   },

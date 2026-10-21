@@ -6,7 +6,7 @@ opencanviz.com and its MP4 export.
 
 This repository is a mirror. openCanviz is developed in a private repository, and this one
 receives only the files the player is built from, at the same paths they have there. Synced
-from openCanviz commit `601d601`.
+from openCanviz commit `acc235b`.
 
 ```sh
 npm install
